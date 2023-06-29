@@ -1,0 +1,407 @@
+[
+  {
+    "id": 1,
+    "category": "Sports & Fitness",
+    "name": "Camping tent",
+    "price": 39.99,
+    "image": "https://m.media-amazon.com/images/I/61RPqX2v2AL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Outdoor Gear",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "category": "Sports & Fitness",
+    "name": "Hiking boots",
+    "price": 29.99,
+    "image": "https://m.media-amazon.com/images/I/818dgQjMjIL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Trail Blazers",
+    "rating": 3.2
+  },
+  {
+    "id": 3,
+    "category": "Sports & Fitness",
+    "name": "Kayak",
+    "price": 79.99,
+    "image": "https://m.media-amazon.com/images/I/61PhHAP1heS._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Aqua Adventure",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "category": "Sports & Fitness",
+    "name": "Cycling helmet",
+    "price": 19.99,
+    "image": "https://m.media-amazon.com/images/I/417Awahf4DL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Speedy Riders",
+    "rating": 4.0
+  },
+  {
+    "id": 5,
+    "category": "Sports & Fitness",
+    "name": "Dumbbells",
+    "price": 49.99,
+    "image": "https://m.media-amazon.com/images/I/71bVjdpp+NL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "FitPro",
+    "rating": 3.6
+  },
+  {
+    "id": 6,
+    "category": "Kitchen",
+    "name": "Cookware",
+    "price": 29.99,
+    "image": "https://m.media-amazon.com/images/I/81-sJRhEapL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "XYZ",
+    "rating": 4.5
+  },
+  {
+    "id": 7,
+    "category": "Kitchen",
+    "name": "Cutlery",
+    "price": 12.99,
+    "image": "https://m.media-amazon.com/images/I/61ViMvPxOUL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "ABC",
+    "rating": 3.8
+  },
+  {
+    "id": 8,
+    "category": "Kitchen",
+    "name": "Appliances",
+    "price": 99.99,
+    "image": "https://m.media-amazon.com/images/I/71dTES5lxKL._AC_UY327_FMwebp_QL65_.jpg",
+    "brand": "123",
+    "rating": 3.2
+  },
+  {
+    "id": 9,
+    "category": "Kitchen",
+    "name": "Bakeware",
+    "price": 19.99,
+    "image": "https://m.media-amazon.com/images/I/91hBA6hLfuL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "DEF",
+    "rating": 2.7
+  },
+  {
+    "id": 10,
+    "category": "Kitchen",
+    "name": "Utensils",
+    "price": 8.99,
+    "image": "https://m.media-amazon.com/images/I/61x0GR6c-0S._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "XYZ",
+    "rating": 2.5
+  },
+  {
+    "id": 11,
+    "category": "Fashion",
+    "name": "Casual Shirt",
+    "price": 29.99,
+    "image": "https://m.media-amazon.com/images/I/71MaGTXl7ML._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "ABC Clothing",
+    "rating": 3.5
+  },
+  {
+    "id": 12,
+    "category": "Fashion",
+    "name": "Formal Shirt",
+    "price": 49.99,
+    "image": "https://m.media-amazon.com/images/I/71F-KfHZCZL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "XYZ Fashion",
+    "rating": 4.2
+  },
+  {
+    "id": 13,
+    "category": "Fashion",
+    "name": "Polo",
+    "price": 39.99,
+    "image": "https://m.media-amazon.com/images/I/51X-0gXfPhL._UY445_.jpg",
+    "brand": "123 Apparel",
+    "rating": 4.8
+  },
+  {
+    "id": 14,
+    "category": "Fashion",
+    "name": "T-Shirt",
+    "price": 19.99,
+    "image": "https://m.media-amazon.com/images/I/41cdvdRUpEL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Fashion Forward",
+    "rating": 4.0
+  },
+  {
+    "id": 15,
+    "category": "Fashion",
+    "name": "Sports Shirt",
+    "price": 34.99,
+    "image": "https://m.media-amazon.com/images/I/51gLonI8VsL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Active Gear",
+    "rating": 2.6
+  },
+  {
+    "id": 16,
+    "category": "Fashion",
+    "name": "Skinny Jeans",
+    "price": 59.99,
+    "image": "https://m.media-amazon.com/images/I/8185K1xC4mL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Brand A",
+    "rating": 2.5
+  },
+  {
+    "id": 17,
+    "category": "Fashion",
+    "name": "Straight Jeans",
+    "price": 79.99,
+    "image": "https://m.media-amazon.com/images/I/61bUbBS13XL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Brand B",
+    "rating": 3.2
+  },
+  {
+    "id": 18,
+    "category": "Fashion",
+    "name": "Bootcut Jeans",
+    "price": 69.99,
+    "image": "https://m.media-amazon.com/images/I/61LGK-mM5dL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Brand C",
+    "rating": 4
+  },
+  {
+    "id": 19,
+    "category": "Fashion",
+    "name": "Flare Jeans",
+    "price": 89.99,
+    "image": "https://m.media-amazon.com/images/I/515TMXuMPwL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Brand D",
+    "rating": 3.0
+  },
+  {
+    "id": 20,
+    "category": "Fashion",
+    "name": "Boyfriend Jeans",
+    "price": 49.99,
+    "image": "https://m.media-amazon.com/images/I/81tV9XphryL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Brand E",
+    "rating": 3.8
+  },
+  {
+    "id": 21,
+    "category": "Fashion",
+    "name": "Classic T-Shirt",
+    "price": 19.99,
+    "image": "https://m.media-amazon.com/images/I/51lP3VinwoL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "XYZ Brand",
+    "rating": 1.5
+  },
+  {
+    "id": 22,
+    "category": "Fashion",
+    "name": "Graphic T-Shirt",
+    "price": 24.99,
+    "image": "https://m.media-amazon.com/images/I/71HT+ZLQCkL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "ABC Brand",
+    "rating": 4.2
+  },
+  {
+    "id": 23,
+    "category": "Fashion",
+    "name": "Sports T-Shirt",
+    "price": 29.99,
+    "image": "https://m.media-amazon.com/images/I/61JfY-wlntL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "XYZ Brand",
+    "rating": 3.5
+  },
+  {
+    "id": 24,
+    "category": "Fashion",
+    "name": "V-Neck T-Shirt",
+    "price": 17.99,
+    "image": "https://m.media-amazon.com/images/I/81JVILh46lL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "PQR Brand",
+    "rating": 2.0
+  },
+  {
+    "id": 25,
+    "category": "Camera",
+    "name": "DSLR",
+    "price": 1499.99,
+    "image": "https://m.media-amazon.com/images/I/914hFeTU2-L._AC_UY327_FMwebp_QL65_.jpg",
+    "brand": "Nikon",
+    "rating": 4.5
+  },
+  {
+    "id": 26,
+    "category": "Camera",
+    "name": "Mirrorless",
+    "price": 1999.99,
+    "image": "https://m.media-amazon.com/images/I/713xBPyXC-L._AC_UY327_FMwebp_QL65_.jpg",
+    "brand": "Sony",
+    "rating": 4.8
+  },
+  {
+    "id": 27,
+    "category": "Camera",
+    "name": "Point-and-Shoot",
+    "price": 299.99,
+    "image": "https://m.media-amazon.com/images/I/71zbWtYBZhL._AC_UY327_FMwebp_QL65_.jpg",
+    "brand": "Minolta",
+    "rating": 4.2
+  },
+  {
+    "id": 28,
+    "category": "Camera",
+    "name": "Action",
+    "price": 399.99,
+    "image": "https://m.media-amazon.com/images/I/713lEGEkFWL._AC_UY327_FMwebp_QL65_.jpg",
+    "brand": "GoPro",
+    "rating": 3.6
+  },
+  {
+    "id": 29,
+    "category": "Laptop",
+    "name": "Gaming",
+    "price": "1899.99",
+    "image": "https://m.media-amazon.com/images/I/818vGJO+jeL._AC_UY327_FMwebp_QL65_.jpg",
+    "brand": "Acer",
+    "rating": 4.5
+  },
+  {
+    "id": 30,
+    "category": "Laptop",
+    "name": "Ultrabook",
+    "price": "1299.99",
+    "image": "https://m.media-amazon.com/images/I/71dojZ7Pv3L._AC_UY327_FMwebp_QL65_.jpg",
+    "brand": "Dell",
+    "rating": 4.2
+  },
+  {
+    "id": 31,
+    "category": "Laptop",
+    "name": "Convertible",
+    "price": "1499.99",
+    "image": "https://m.media-amazon.com/images/I/51VZIz+fngL._AC_UY327_FMwebp_QL65_.jpg",
+    "brand": "HP",
+    "rating": 3.8
+  },
+  {
+    "id": 32,
+    "category": "Laptop",
+    "name": "Business",
+    "price": "1999.99",
+    "image": "https://m.media-amazon.com/images/I/81kUtzkPqOS._AC_UY327_FMwebp_QL65_.jpg",
+    "brand": "Lenovo",
+    "rating": 4.7
+  },
+  {
+    "id": 33,
+    "category": "Mobile",
+    "name": "Smartphone",
+    "price": 799,
+    "image": "https://m.media-amazon.com/images/I/61XO4bORHUL._AC_UY327_FMwebp_QL65_.jpg",
+    "brand": "Apple",
+    "rating": 4.5
+  },
+  {
+    "id": 34,
+    "category": "Mobile",
+    "name": "Smartphone",
+    "price": 699,
+    "image": "https://m.media-amazon.com/images/I/81t6Av5DvXL._AC_UY327_FMwebp_QL65_.jpg",
+    "brand": "Samsung",
+    "rating": 2.4
+  },
+  {
+    "id": 35,
+    "category": "Mobile",
+    "name": "Feature Phone",
+    "price": 99,
+    "image": "https://m.media-amazon.com/images/I/51GSe9rxsoL._AC_UY327_FMwebp_QL65_.jpg",
+    "brand": "Nokia",
+    "rating": 2.0
+  },
+  {
+    "id": 36,
+    "category": "Mobile",
+    "name": "Smartphone",
+    "price": 499,
+    "image": "https://m.media-amazon.com/images/I/61oQtjPpM-L._AC_UY327_FMwebp_QL65_.jpg",
+    "brand": "Google",
+    "rating": 3.7
+  },
+  {
+    "id": 37,
+    "category": "Mobile",
+    "name": "Smartphone",
+    "price": 899,
+    "image": "https://m.media-amazon.com/images/I/61n6EQXwtzL._AC_UY327_QL65_.jpg",
+    "brand": "OnePlus",
+    "rating": 3.4
+  },
+  {
+    "id": 38,
+    "category": "Mobile",
+    "name": "Android",
+    "price": 199.99,
+    "image": "https://m.media-amazon.com/images/I/81lnKynSaqL._AC_UY327_QL65_.jpg",
+    "brand": "Samsung",
+    "rating": 4.5
+  },
+  {
+    "id": 39,
+    "category": "Mobile",
+    "name": "iOS",
+    "price": 299.99,
+    "image": "https://m.media-amazon.com/images/I/61cMQeVEGKL._AC_UY327_QL65_.jpg",
+    "brand": "Apple",
+    "rating": 5
+  },
+  {
+    "id": 40,
+    "category": "Mobile",
+    "name": "Windows",
+    "price": 249.99,
+    "image": "https://m.media-amazon.com/images/I/71n8u+3+NIL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Microsoft",
+    "rating": 3.3
+  },
+  {
+    "id": 41,
+    "category": "Beauty",
+    "name": "Makeup",
+    "price": 29.99,
+    "image": "https://m.media-amazon.com/images/I/411McCP6RwL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Brand A",
+    "rating": 4.5
+  },
+  {
+    "id": 42,
+    "category": "Beauty",
+    "name": "Skincare",
+    "price": 49.99,
+    "image": "https://m.media-amazon.com/images/I/81KDn7vgk1L._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Brand B",
+    "rating": 5
+  },
+  {
+    "id": 43,
+    "category": "Beauty",
+    "name": "Haircare",
+    "price": 19.99,
+    "image": "https://m.media-amazon.com/images/I/61+GUTSPxaL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Brand C",
+    "rating": 3.2
+  },
+  {
+    "id": 44,
+    "category": "Beauty",
+    "name": "Fragrance",
+    "price": 39.99,
+    "image": "https://m.media-amazon.com/images/I/618wYK9lf-L._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Brand D",
+    "rating": 4.6
+  },
+  {
+    "id": 45,
+    "category": "Beauty",
+    "name": "Nail Care",
+    "price": 9.99,
+    "image": "https://m.media-amazon.com/images/I/31mMS4GutHL._AC_UL600_FMwebp_QL65_.jpg",
+    "brand": "Brand E",
+    "rating": 3.0
+  }
+]

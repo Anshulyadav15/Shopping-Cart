@@ -1,38 +1,394 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ********HEADER********** */
+
+.navbar {
+  background-color: #242824;
+}
+
+.container {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+.search {
+  display: flex;
+}
+
+.search-icon {
+  background-color: #fff;
+  color: #242824;
+  padding: 0.15rem 0 0 0.1rem;
+  font-size: 25px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.search-input {
+  font-size: 15px;
+  width: 20rem;
+  padding: 0.3rem 0.5rem;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: none;
+}
+
+.search-input:focus {
+  border: none;
+  outline: none;
+}
+
+.cart {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* *******HOME*********** */
+
+.home {
+  display: flex;
+}
+
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 78%;
+}
+
+/* ***********FILTERS************ */
+
+.filtercontainer {
+  width: 20%;
+  margin: 0.5rem 0 0 0.5rem;
+  height: 80vh;
+  background-color: #242824;
+  color: #fff;
+}
+
+.filtercontainer h2 {
+  padding: 1rem 0 0 1rem;
+}
+
+#check,
+.checkbtn {
+  cursor: pointer;
+  display: none;
+}
+
+.form-container {
+  margin: 0 1rem;
+}
+
+.form-container div {
+  padding-top: 0.8rem;
+}
+
+.form-container input {
+  margin-right: 0.2rem;
+}
+
+.lowtohigh {
+  cursor: pointer;
+}
+
+.hightolow {
+  cursor: pointer;
+}
+
+.category-btn {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+.default-btn {
+  background-color: #6d6d6d;
+  color: #fff;
+}
+
+.clearfilter-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+  width: 100%;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.clearfilter-btn:hover {
+  background-color: #6d6d6d;
+  color: #fff;
+}
+
+/* *********SINGLEPRODUCT********** */
+
+.card {
+  height: 30rem;
+  margin: 2rem 0.5rem;
+  border-radius: 5px;
+  box-shadow: 3px 5px 3px 5px #b4b4b4;
+}
+.img {
+  margin: 1rem;
+  width: 12rem;
+  height: 16rem;
+}
+
+.info {
+  margin-left: 1rem;
+}
+
+.info p {
+  padding-top: 3px;
+}
+
+.price {
+  color: #ff0000;
+}
+
+.star-icon {
+  color: #ffd700;
+}
+
+.add-remove-btn {
+  margin: 0.8rem 0 0.8rem 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.addtocart,
+.removefromcart {
+  padding: 0.5rem 3rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #6d6d6d;
+  border-radius: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.addtocart:hover,
+.removefromcart:hover {
+  background-color: #242824;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ***********CART*********** */
+
+.cart-container {
+  width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cart-container h1 {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.cart-title {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.cart-card {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 2rem;
+  padding: 1rem;
+  justify-content: space-evenly;
+  box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-.App-link {
-  color: #61dafb;
+.cart-card img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.remove,
+.add {
+  font-weight: bolder;
+  padding: 0 0.3rem;
+}
+
+.cart-input {
+  width: 2rem;
+  text-align: center;
+}
+
+.cart-remove-btn {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.subtotal {
+  background-color: #242824;
+  color: #fff;
+  margin-top: 2rem;
+  padding: 1rem;
+  line-height: 1.5rem;
+}
+
+.subtotal button {
+  background-color: #6d6d6d;
+  color: #fff;
+  border: none;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.3rem 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 771px) {
+  .logo h1 {
+    font-size: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  .search-icon {
+    font-size: 21px;
+  }
+  .search-input {
+    font-size: 12px;
+    width: 10rem;
+  }
+  .home {
+    display: block;
+  }
+  .filtercontainer {
+    width: 100%;
+    margin: 0.5rem 0;
+    height: 15%;
+    background-color: #6d6d6d;
+  }
+  .form-container div {
+    padding: 0.3rem 0;
+  }
+
+  .filtercontainer h2 {
+    padding: 0.3rem 1rem 0 0;
+    float: right;
+  }
+  .checkbtn {
+    font-size: 18px;
+    padding: 0.5rem 0 0.5rem 1rem;
+    display: block;
+  }
+
+  .form-container {
+    display: block;
+    position: fixed;
+    margin: 0;
+    padding: 0.25rem;
+    width: 100%;
+    height: 12rem;
+    top: 5.8rem;
+    left: -102%;
+    transition: all 0.5s;
+    background-color: #242824;
+  }
+
+  #check:checked ~ .form-container {
+    left: 0;
+  }
+  .category {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .clearfilter-btn {
+    font-size: 12px;
+    margin: 0.5rem 0;
+    padding: 0.2rem 0;
+  }
+
+  .cart-container h1,
+  .filtercontainer h2,
+  .cart-title {
+    font-size: 18px;
+  }
+  .category-btn {
+    font-size: 10px;
+  }
+  .productContainer {
+    width: 100%;
+  }
+  .card {
+    height: 20rem;
+    padding: 5px;
+    margin: 1rem 0.8rem;
+  }
+  .img {
+    margin: 1rem;
+    width: 8rem;
+    height: 8rem;
+  }
+  .filtercontainer label,
+  .info,
+  .cart-info,
+  .subtotal,
+  .subtotal button {
+    font-size: 12px;
+  }
+  .addtocart,
+  .removefromcart {
+    font-size: 10px;
+    padding: 0.5rem 2rem;
+  }
+  .cart-container {
+    width: 25rem;
+  }
+  .remove,
+  .add {
+    font-weight: bolder;
+    padding: 0 0.1rem;
+  }
+
+  .cart-input {
+    width: 1.5rem;
+    text-align: center;
+  }
+
+  .price {
+    font-size: 14px;
+  }
+
+  .cart-remove-btn {
+    font-size: 18px;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 416px) {
+  .logo h1 {
+    font-size: 18px;
+  }
+  .search-icon {
+    padding: 3.2px 0 3.2px 3.2px;
+    font-size: 15px;
+  }
+  .search-input {
+    font-size: 10.2px;
+    width: 7rem;
+  }
+  .cart {
+    font-size: 15px;
+  }
+  .filtercontainer h2 {
+    font-size: 15px;
+  }
+  .form-container {
+    height: 12rem;
+  }
+  .card {
+    height: 19rem;
+    margin: 1rem 0.5rem;
+  }
+  .cart-container {
+    width: 22rem;
   }
 }
